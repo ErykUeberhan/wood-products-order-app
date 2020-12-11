@@ -42,7 +42,9 @@ Project is in progress
 * Allow to send gifs/light images on chat
 
 ## Screens
-<img src='Screenshots/3.png' width='100'>
+<img src='Screenshots/2.png' width='300'>
+<img src='Screenshots/3.png' width='300'>
+<img src='Screenshots/1.png' width='300'>
 
 ## 🖌 Inspiration 🖌
 I like to make clones of known pages/application to improve my programming skills.

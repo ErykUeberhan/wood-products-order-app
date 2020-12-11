@@ -2,8 +2,8 @@
 This application shows orders placed on Wood-products site.
 
 ## 💢 Link to app: 💢
-Order app uses expo to work, QR code below:
-![](https://user-images.githubusercontent.com/25219943/101917010-fd5a0d00-3bc7-11eb-87a3-6e4bf26c48cf.PNG)
+Order app uses expo to work, link to project with QE code: https://expo.io/@erykosz/projects/orderApp
+
 ## 🔍 Table of contents 🔍
 * [General info](#general-info)
 * [Technologies](#technologies)

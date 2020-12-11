@@ -36,7 +36,7 @@ Project is in progress
 * Bin to recover orders
 * Updating count of produts in magazine by application
 
-## 🖼️ Screens 🖼️
+## 📸 Screens 📸
 <img src='Screenshots/2.png' width='300'><img src='Screenshots/3.png' width='300'><img src='Screenshots/1.png' width='300'>
 
 ## 🖌 Inspiration 🖌

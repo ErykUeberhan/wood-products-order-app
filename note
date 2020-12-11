@@ -1,0 +1,92 @@
+import React, { useState } from "react";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import * as firebase from "firebase";
+// import { render } from "react-dom";
+import { firebaseConfig } from "./Firebase";
+import Order from "./Order";
+
+firebase.initializeApp(firebaseConfig);
+
+
+
+export default class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      values: 1,
+      count: 1,
+      columns:
+        [
+          // firstName: '',
+          // lastName: '',
+          // items: '',
+          // phone: '',
+          // zipCode: '',
+          // city: '',
+          // email: '',
+          // address: '',
+        ]
+    };
+
+  }
+  componentDidMount() {
+    const myitems = firebase.database().ref("orders");
+    myitems.on("value", snapshot => {
+      this.setState({ values: snapshot.val() });
+      this.setState({ count: 2 });
+      //console.log(count);
+      // for (const [key, value] of Object.entries(values)) {
+      // this.state.columns.push(<Order
+      //   firstName={value.firstName}
+      //   lastName={value.lastName}
+      //   items={value.items}
+      //   phone={value.phone}
+      //   zipCode={value.zipCode}
+      //   city={value.city}
+      //   email={value.email}
+      //   address={value.address}
+      // />)
+      //console.log(value.firstName)
+      // this.state.columns.push(
+      //   this.state.columns.lastName = value.lastName,
+      // this.state.columns.items = value.items,
+      // phone = value.phone,
+      // zipCode = value.zipCode,
+      // city = value.city,
+      // email = value.email,
+      // address = value.address
+      // )
+
+
+      // }
+    })
+  }
+
+  infos = this.state.values;
+  render() {
+    return (
+      <SafeAreaView style={styles.container}>
+        {infos.map((i) => {
+          <Order
+            firstName={i.firstName}
+          />
+        })}
+        <Text>{this.state.count}</Text>
+      </SafeAreaView>
+    );
+  }
+}
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+  },
+  order: {
+    backgroundColor: 'gray',
+    borderWidth: 1,
+    borderStyle: 'solid',
+    borderColor: 'black',
+  }
+});

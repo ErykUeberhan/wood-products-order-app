@@ -1,4 +1,4 @@
-# 💻 Order app on phones 💻 
+# 📱 Order app on phones 📱 
 This application shows orders placed on Wood-products site.
 
 ## 💢 Link to app: 💢
@@ -36,7 +36,7 @@ Project is in progress
 * Bin to recover orders
 * Updating count of produts in magazine by application
 
-## 📱 Screens 📱
+## 🖼️ Screens 🖼️
 <img src='Screenshots/2.png' width='300'><img src='Screenshots/3.png' width='300'><img src='Screenshots/1.png' width='300'>
 
 ## 🖌 Inspiration 🖌

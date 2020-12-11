@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyCta5nWQBskE0DnqZOh6cpXVVtUUznZX40",
-  authDomain: "dla-pszczelarzy.firebaseapp.com",
-  databaseURL: "https://dla-pszczelarzy.firebaseio.com",
-  projectId: "dla-pszczelarzy",
-  storageBucket: "dla-pszczelarzy.appspot.com",
-  messagingSenderId: "374190089654",
-  appId: "1:374190089654:web:5fad60f2b0a0ce9ac38d17",
-  measurementId: "G-EDD0PPG4DX"
+  apiKey: "AIzaSyDhpVLOUfwVggbY7UBvx8GGG_g2R1Jt9W8",
+  authDomain: "wood-products-32ab0.firebaseapp.com",
+  databaseURL: "https://wood-products-32ab0-default-rtdb.firebaseio.com",
+  projectId: "wood-products-32ab0",
+  storageBucket: "wood-products-32ab0.appspot.com",
+  messagingSenderId: "311062704200",
+  appId: "1:311062704200:web:ad3db530d1c8ddb09f687d",
+  measurementId: "G-JCV1JB1YR8"
 };

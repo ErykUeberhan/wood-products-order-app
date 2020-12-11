@@ -9,45 +9,39 @@ Order app uses expo to work, link to project with QR code: https://expo.io/@eryk
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
+* [Screens](#screens)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
 
 ## 📋 General info 📋
-My Discord-clone allows you to register your account, log in and write with people. You can create a server, add categories and channels with chat.
-Every server have a unique ID, so it's possible to have a many channels with different topics to conversations.
-The application is written with React, uses Cloud Firestore to storage data about servers, categories, channels and messages.
-Redux stores a informations about logged user and chats.
+This application fetch data from firebase realtime database. Informations about orders shows up on cards stacked in column.
+When products are ready to delivery, you can delete card from database on phone.
+The application is written with React Native.
 
 ## ⚙️ Technologies ⚙️
-* HTML/CSS/Javascript
-* React
-* Redux
+* Javascript
+* React Native
 * Firebase
 
 ## 🚀 Features 🚀
-* Registration and login in
-* Realtime chat
-* Adding servers/categories/channels dependent on each other and deleting them from database by one click
-* Application is responsive for mobile devices
+* Sorted informations about order
+* Realtime refreshing cards
 
 ## ⌚️ Status ⌚️
 Project is in progress
 
 🔧 To-do list:
-* Inviting to friends
-* Show list of users chatting in channel
-* Direct messages
-* Voice channels
-* Allow to send gifs/light images on chat
+* Order history
+* Bin to recover orders
+* Updating count of produts in magazine by application
 
-## Screens
+## 📱 Screens 📱
 <img src='Screenshots/2.png' width='300'><img src='Screenshots/3.png' width='300'><img src='Screenshots/1.png' width='300'>
 
 ## 🖌 Inspiration 🖌
-I like to make clones of known pages/application to improve my programming skills.
-That allow me to focus on technologies, features and solutions more than thinking about page layout.
-I think Discord is good chose for learn how to create a online chat.
+My dad make a products to his auctions in workshop so it's uncomfortable to check every order on computer, but he always has a phone with him.
+I thought that will be a good solution to move a informations about orders to mobile app.
 
 ## 📧 Contact 📧
 Created by Eryk Ueberhan,

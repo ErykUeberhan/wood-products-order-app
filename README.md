@@ -42,7 +42,7 @@ Project is in progress
 * Allow to send gifs/light images on chat
 
 ## Screens
-![] (Screenshots/1.png)
+![](Screenshots/1.png)
 
 ## 🖌 Inspiration 🖌
 I like to make clones of known pages/application to improve my programming skills.

@@ -2,8 +2,8 @@
 This application shows orders placed on Wood-products site.
 
 ## 💢 Link to app: 💢
-https://discord-clone-47751.web.app
-
+Order app uses expo to work, QR code below:
+![](https://user-images.githubusercontent.com/25219943/101917010-fd5a0d00-3bc7-11eb-87a3-6e4bf26c48cf.PNG)
 ## 🔍 Table of contents 🔍
 * [General info](#general-info)
 * [Technologies](#technologies)

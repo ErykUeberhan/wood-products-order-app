@@ -37,7 +37,7 @@ Project is in progress
 * Updating count of produts in magazine by application
 
 ## 📸 Screens 📸
-<img src='Screenshots/2.png' width='300'><img src='Screenshots/3.png' width='300'><img src='Screenshots/1.png' width='300'>
+<img src='Screenshots/2.png' width='275'><img src='Screenshots/3.png' width='275'><img src='Screenshots/1.png' width='275'>
 
 ## 🖌 Inspiration 🖌
 My dad make a products to his auctions in workshop so it's uncomfortable to check every order on computer, but he always has a phone with him.

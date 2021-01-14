@@ -18,7 +18,6 @@ export default class Fetch extends Component {
       pressed: false,
       alertToggle: true,
       tempId: 0,
-      lol: 0,
     }
     this.handleClick = this.handleClick.bind(this);
     this.remove = this.remove.bind(this);
@@ -48,6 +47,7 @@ export default class Fetch extends Component {
             phone: child.val().phone,
             zipCode: child.val().zipCode,
             price: child.val().price,
+            date: child.val().date,
           })
         })
         this.setState({ list: li })
@@ -174,6 +174,15 @@ export default class Fetch extends Component {
                   </Text>
                 </View>
 
+                <View style={styles.row}>
+                  <Text style={styles.rowTxt}>
+                    Data:
+                  </Text>
+                  <Text style={styles.rowTxt}>
+                    {item.date}
+                  </Text>
+                </View>
+
                 <View style={styles.bttn}>
                   <TouchableOpacity style={this.state.pressed ? styles.doneNormal : styles.doneHighlighted} onPress={() => { this.setState(state => ({ alertToggle: !state.alertToggle })); this.setState({ tempId: item.id }) }}>
                     <Text style={this.state.pressed ? styles.txtBttnNormal : styles.txtBttnHighlighted}>Gotowe</Text>
@@ -258,17 +267,13 @@ const styles = StyleSheet.create({
     backgroundColor: '#f2f2f2',
     elevation: 3,
     zIndex: 3,
-    // top: '40%',
-    // left: '25%',
-    // transform: [{translateX: Dimensions.get('window').width * -0.5 }, { translateY: Dimensions.get('window').height * -0.5 }],
-    // transform: [{translateX: Dimensions.get('window').width * 0.5 }],
     padding: 10,
   },
   rowTxtOrder: {
     margin: 10,
     fontWeight: 'bold',
     textAlign: 'center',
-    fontSize: 40,
+    fontSize: 36,
   },
   rowOrder: {
     display: 'flex',
